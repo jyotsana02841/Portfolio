@@ -101,6 +101,7 @@ export default function Portfolio() {
             </p>
             <a
               href="https://github.com/jyotsana02841/NextCollab.git"
+              target="_blank"
               className="text-blue-500 hover:underline mt-2 inline-block"
             >
               GitHub
@@ -135,7 +136,7 @@ export default function Portfolio() {
 
       {/* Contact Section */}
       <section className="p-8 bg-white shadow-inner flex" id="contact">
-        <h2 className="text-3xl font-semibold text-purple-700 mb-4 justify-center">
+        <h2 className="text-3xl font-semibold text-purple-700 mb-4 items-center">
           Contact Me
         </h2>
         <div className="bg-gray-100 p-6 rounded-lg shadow max-w-md mx-auto text-center">
@@ -145,17 +146,17 @@ export default function Portfolio() {
           <div className="flex justify-center gap-6 text-blue-600 text-lg">
             <a
               href="https://www.linkedin.com/in/jyotsana-joshi-569607253/"
-              className="hover:underline"
+              className="hover:underline" target="_blank"
             >
               LinkedIn
             </a>
             <a
               href="https://github.com/jyotsana02841"
-              className="hover:underline"
+              className="hover:underline" target="_blank"
             >
               GitHub
             </a>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline" target="_blank">
               joshijyotsana82@gmail.com
             </a>
           </div>
