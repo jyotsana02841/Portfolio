@@ -135,8 +135,8 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section className="p-8 bg-white shadow-inner flex" id="contact">
-        <h2 className="text-3xl font-semibold text-purple-700 mb-4 items-center">
+      <section className="p-8 bg-white shadow-inner" id="contact">
+        <h2 className="text-3xl font-semibold text-purple-700 mb-4">
           Contact Me
         </h2>
         <div className="bg-gray-100 p-6 rounded-lg shadow max-w-md mx-auto text-center">
