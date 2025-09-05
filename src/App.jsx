@@ -92,19 +92,15 @@ export default function Portfolio() {
             whileHover={{ scale: 1.05 }}
           >
             <h3 className="text-xl font-bold text-indigo-800">
-              Online Learning Platform (React, Node.js, Express, MongoDB, JWT
-              (JSON Web Tokens))
+               Virtual Meeting Platform (Next.js, WebRTC, Stream, Clerk, Tailwind CSS)
             </h3>
             <p className="text-sm text-gray-600 mt-2">
-              Developed a feature-rich e-commerce site that increased daily
-              visits by over 500, with intuitive navigation and secure Stripe
-              checkout. Implemented a product recommendation algorithm to
-              enhance user experience and resolve checkout issues. Optimized
-              database architecture, reducing data retrieval times by 30%, which
-              improved overall site performance.
+              Developed a scalable virtual meeting platform that allows real-time video/audio conferencing using WebRTC
+ and Stream, supporting up to X users per session.giImplemented a dynamic user interface with responsive video grids, chat functionality, and screen sharing,
+ ensuring a seamless user experience across devices.
             </p>
             <a
-              href="#"
+              href="https://github.com/jyotsana02841/NextCollab.git"
               className="text-blue-500 hover:underline mt-2 inline-block"
             >
               GitHub
@@ -138,8 +134,8 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section className="p-8 bg-white shadow-inner" id="contact">
-        <h2 className="text-3xl font-semibold text-purple-700 mb-4">
+      <section className="p-8 bg-white shadow-inner flex" id="contact">
+        <h2 className="text-3xl font-semibold text-purple-700 mb-4 justify-center">
           Contact Me
         </h2>
         <div className="bg-gray-100 p-6 rounded-lg shadow max-w-md mx-auto text-center">
